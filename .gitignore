@@ -1,0 +1,10 @@
+.vscode/
+.venv/
+*.exe
+*.o
+*.obj
+bin/
+obj/
+
+**/bin/
+**/include/
