@@ -1,4 +1,4 @@
-# Integral Image Single-Core C++ Project
+# Integral Image Single-Core C++
 
 ## Overview
 This project computes the integral image of a 2D matrix using a single-core C++ implementation. It utilizes a straightforward two-pass approach (row-wise and column-wise prefix sums) on a single CPU core.
