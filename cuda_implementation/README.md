@@ -46,11 +46,17 @@ Ensure that CUDA is properly installed on the system. The Makefile assumes that 
 1. **Compile the Project:**
   ```cmd
   make
+  ```
+  
 
 2. **Run the Executable:**
   ```cmd
-  integral_image.exe
+  bin\integral_image.exe
+  ```
+  
 
 3. **Clean the Build:**
   ```cmd
   make clean
+  ```
+  

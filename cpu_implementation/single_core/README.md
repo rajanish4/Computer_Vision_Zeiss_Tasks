@@ -12,11 +12,17 @@ This project computes the integral image of a 2D matrix using a single-core C++ 
 1. **Compile the Project:**
   ```cmd
   make
+  ```
+  
 
 2. **Run the Executable:**
   ```cmd
-  bin\integral_image.exe (windows)
+  bin\integral_image.exe
+  ```
+  
 
 3. **Clean the Build:**
   ```cmd
   make clean
+  ```
+  

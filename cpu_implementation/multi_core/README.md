@@ -12,11 +12,16 @@ This project computes the integral image of a 2D matrix using a two-pass multi-t
 1. **Compile the Project:**
   ```cmd
   make
+  ```
 
 2. **Run the Executable:**
   ```cmd
-  bin\integral_image.exe (windows)
+  bin\integral_image.exe
+  ```
+  
 
 3. **Clean the Build:**
   ```cmd
   make clean
+  ```
+  
