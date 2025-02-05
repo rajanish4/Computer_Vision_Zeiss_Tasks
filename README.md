@@ -1,5 +1,15 @@
 # Integral Image Tasks
 
+An Integral Image is a data structure that allows fast computation of rectangular region sums in an image. Given an input image `I(x, y)`, the integral image `IΣ(x, y)` at any point `(x, y)` is defined as:
+
+\[
+IΣ(x, y) = \sum_{i=0}^{x} \sum_{j=0}^{y} I(i, j)
+\]
+
+This allows efficient computation of sums over arbitrary rectangular regions using only four array lookups, significantly speeding up image processing operations.
+
+---
+
 ## Task 1: Single-core CPU Implementation
 
 Consider an image `I` of size `H x W`. We compute the integral image `IΣ` in a single pass:
