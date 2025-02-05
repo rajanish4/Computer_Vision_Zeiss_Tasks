@@ -1,6 +1,6 @@
-# Zeiss Tasks
+# Integral Image Tasks
 
-## Task 1: Schematic Sketch
+## Task 1: Single-core CPU Implementation
 
 Consider an image `I` of size `H x W`. We compute the integral image `IΣ` in a single pass:
 
