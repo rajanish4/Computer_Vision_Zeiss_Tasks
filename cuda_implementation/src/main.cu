@@ -70,7 +70,7 @@ void compute_integral_image(float* d_input, float* d_output, int width, int heig
     // ------------------- Convert Exclusive Scan to Inclusive Scan for Rows -------------------
     // Launch kernel with enough blocks to cover all elements
     int total_elements = width * height;
-    int threads = 512;
+    int threads = BLOCK_SIZE;
     int blocks = (total_elements + threads - 1) / threads;
     batched_add_input_to_scan<<<blocks, threads>>>(
         d_input, d_row_scan, d_row_scan, total_elements, width, height
